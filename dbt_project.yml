@@ -14,4 +14,11 @@ vars:
 models:
   social_media_reporting:
     +schema: social_media_reporting
-    +materialized: table
+    +materialized: table 
+    twitter_organic:
+        enabled: false
+    twitter_organic_source:
+        enabled: false
+    
+    
+    
