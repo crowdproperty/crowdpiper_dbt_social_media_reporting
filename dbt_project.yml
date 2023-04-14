@@ -11,6 +11,17 @@ vars:
   social_media_rollup__facebook_enabled: true
   social_media_rollup__linkedin_enabled: true
   social_media_rollup__instagram_enabled: true
+  
+  facebook_pages_schema: facebook_pages
+    
+
+  ##LinkedIn Pages schema and database variables
+  linkedin_pages_schema: linkedin_company_pages
+    
+
+  ##Instagram Business schema and database variables
+  instagram_business_schema: instagram
+  
 models:
   social_media_reporting:
     +schema: social_media_reporting
